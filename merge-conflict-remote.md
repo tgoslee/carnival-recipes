@@ -18,7 +18,7 @@ With this activity you will be able to encounter and resolve merge conflicts in 
 
 Before we can start putting the recipe together we need to make sure that everyone in your group is working from the same starting point and can effectively contribute to the recipe building effort.
 
-1. **Split into groups**: The class will be divided into groups by Homeroom. These groups will be your groups for the project next week. 
+1. **Split into groups**: The class will be divided into groups.
    - Breakout Rooms 1, 7, 13: Aardvark
    - Breakout Room 2, 8, 14: Tarsier
    - Breakout Room 3, 9, 15: Gecko
@@ -26,11 +26,11 @@ Before we can start putting the recipe together we need to make sure that everyo
    - Breakout Room 5, 11, 17: Lionfish
    - Breakout Room 6, 12, 18: Pangolin
  
-1. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
+1. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/Ada-C15A/carnival-recipes) repo and then add everyone else as a collaborator.
     - To add collaborators, go to **Settings** --> **Manage access** --> **Invite teams or people**
     - Invite collaborators will need to accept the invitation. 
 1. **Clone the forked repo**: Everyone in your group should clone the forked repository.
-    - Check that you have the proper remote (and not the AdaGold remote) by typing `git remote -v` in the terminal.
+    - Check that you have the proper remote (and not the Ada-C15A remote) by typing `git remote -v` in the terminal.
 1. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
 1. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
 
@@ -44,8 +44,8 @@ Because each member of your group now has a different version of the recipe file
 
 1. Each person on a team will create a branch with `git checkout -b BRANCH-NAME`, selecting their own branch name based off the recipe scrap they have, and commit the changes they have made to the recipe.
 1. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
-1. Each team member will open a **pull request** trying to merge their branch on github into `master`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
-    - To make the PR against your team members forked respository and not AdaGold, we will need to change the base repository
+1. Each team member will open a **pull request** trying to merge their branch on github into `master`.  **Be very careful to make the PR against your forked repository and NOT Ada-C15A.**
+    - To make the PR against your team members forked respository and not Ada-C15A, we will need to change the base repository
     - If there is a report of a merge conflict you will need to:
        - Pull the current state of master into **their feature branch** with `git pull origin master`
        - in VS code select **accept both changes**
